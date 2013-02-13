@@ -1,0 +1,1602 @@
+{
+    "nodes": [
+        {
+            "name": "HTMLEntities",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 1,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLComponent",
+            "namespace": "org.cyberneko.html",
+            "type": "interface",
+            "abstract": true,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 3,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLElements$ElementList",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 2,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLEntities$IntProperties",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 4,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "NamespaceBinder$NamespaceSupport$Entry",
+            "namespace": "org.cyberneko.html.filters",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#cc2929",
+            "ctangle": 5,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "XercesBridge_2_2",
+            "namespace": "org.cyberneko.html.xercesbridge",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7acc29",
+            "ctangle": 6,
+            "ptangle": 2,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLScanner$SpecialScanner",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 7,
+            "ptangle": 1,
+            "scc_cl_d": "0.67",
+            "scc_cl_t": "0.8",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "ObjectFactory$ConfigurationError",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 8,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLScanner$CurrentEntity",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 9,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLTagBalancer$Info",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 10,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "ObjectFactory",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 12,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "SecuritySupport",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 11,
+            "ptangle": 1,
+            "scc_cl_d": "0.1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "XercesBridge_2_1",
+            "namespace": "org.cyberneko.html.xercesbridge",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7acc29",
+            "ctangle": 13,
+            "ptangle": 2,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLConfiguration$ErrorReporter",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 14,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLEventInfo$SynthesizedItem",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 15,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "XercesBridge_2_0",
+            "namespace": "org.cyberneko.html.xercesbridge",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7acc29",
+            "ctangle": 16,
+            "ptangle": 2,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "SecuritySupport12$3",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 11,
+            "ptangle": 1,
+            "scc_cl_d": "0.1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "SAXParser",
+            "namespace": "org.cyberneko.html.parsers",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#29cccc",
+            "ctangle": 17,
+            "ptangle": 3,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "SecuritySupport12$1",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 11,
+            "ptangle": 1,
+            "scc_cl_d": "0.1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLAugmentations",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 18,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "SecuritySupport12$2",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 11,
+            "ptangle": 1,
+            "scc_cl_d": "0.1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLScanner$ContentScanner",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 7,
+            "ptangle": 1,
+            "scc_cl_d": "0.67",
+            "scc_cl_t": "0.8",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "Writer",
+            "namespace": "org.cyberneko.html.filters",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#cc2929",
+            "ctangle": 19,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "SecuritySupport12$4",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 11,
+            "ptangle": 1,
+            "scc_cl_d": "0.1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLScanner$Scanner",
+            "namespace": "org.cyberneko.html",
+            "type": "interface",
+            "abstract": true,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 20,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "DefaultFilter",
+            "namespace": "org.cyberneko.html.filters",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#cc2929",
+            "ctangle": 21,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "SecuritySupport12$8",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 11,
+            "ptangle": 1,
+            "scc_cl_d": "0.1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLElements",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 23,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "Version",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 22,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLErrorReporter",
+            "namespace": "org.cyberneko.html",
+            "type": "interface",
+            "abstract": true,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 24,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "SecuritySupport12$6",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 11,
+            "ptangle": 1,
+            "scc_cl_d": "0.1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLTagBalancer$InfoStack",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 25,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "DOMFragmentParser",
+            "namespace": "org.cyberneko.html.parsers",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#29cccc",
+            "ctangle": 26,
+            "ptangle": 3,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLScanner$PlaybackInputStream",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 27,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLElements$Element",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 28,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "LostText",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 29,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "Purifier",
+            "namespace": "org.cyberneko.html.filters",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#cc2929",
+            "ctangle": 30,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLTagBalancer$ElementEntry",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 32,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLEntities$IntProperties$Entry",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 33,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "ElementRemover",
+            "namespace": "org.cyberneko.html.filters",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#cc2929",
+            "ctangle": 31,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "SecuritySupport12",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 11,
+            "ptangle": 1,
+            "scc_cl_d": "0.1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "SecuritySupport12$7",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 11,
+            "ptangle": 1,
+            "scc_cl_d": "0.1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "DOMParser",
+            "namespace": "org.cyberneko.html.parsers",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#29cccc",
+            "ctangle": 34,
+            "ptangle": 3,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLConfiguration",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 14,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "NamespaceBinder",
+            "namespace": "org.cyberneko.html.filters",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#cc2929",
+            "ctangle": 35,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLTagBalancer",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 36,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "XercesBridge",
+            "namespace": "org.cyberneko.html.xercesbridge",
+            "type": "class",
+            "abstract": true,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7acc29",
+            "ctangle": 37,
+            "ptangle": 2,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLTagBalancingListener",
+            "namespace": "org.cyberneko.html",
+            "type": "interface",
+            "abstract": true,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 38,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "XercesBridge_2_3",
+            "namespace": "org.cyberneko.html.xercesbridge",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7acc29",
+            "ctangle": 39,
+            "ptangle": 2,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLScanner",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 7,
+            "ptangle": 1,
+            "scc_cl_d": "0.67",
+            "scc_cl_t": "0.8",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLScanner$LocationItem",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 40,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "NamespaceBinder$NamespaceSupport",
+            "namespace": "org.cyberneko.html.filters",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#cc2929",
+            "ctangle": 41,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "LostText$Entry",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 42,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "HTMLEventInfo",
+            "namespace": "org.cyberneko.html",
+            "type": "interface",
+            "abstract": true,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 43,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "SecuritySupport12$5",
+            "namespace": "org.cyberneko.html",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#7a29cc",
+            "ctangle": 11,
+            "ptangle": 1,
+            "scc_cl_d": "0.1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        },
+        {
+            "name": "Identity",
+            "namespace": "org.cyberneko.html.filters",
+            "type": "class",
+            "abstract": false,
+            "container": "nekohtml-1.9.14.jar",
+            "color": "#cc2929",
+            "ctangle": 44,
+            "ptangle": 1,
+            "scc_cl_d": "1",
+            "scc_cl_t": "1",
+            "scc_ns_t": "1",
+            "scc_ns_d": "1"
+        }
+    ],
+    "edges": [
+        {
+            "src": "org.cyberneko.html.filters.NamespaceBinder$NamespaceSupport",
+            "tar": "org.cyberneko.html.filters.NamespaceBinder$NamespaceSupport$Entry",
+            "type": "uses",
+            "btwns": 9,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLElements$ElementList",
+            "tar": "org.cyberneko.html.HTMLElements$Element",
+            "type": "uses",
+            "btwns": 1,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner",
+            "tar": "org.cyberneko.html.HTMLEntities",
+            "type": "uses",
+            "btwns": 24,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner",
+            "tar": "org.cyberneko.html.HTMLEventInfo$SynthesizedItem",
+            "type": "uses",
+            "btwns": 6,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner$ContentScanner",
+            "tar": "org.cyberneko.html.HTMLElements$Element",
+            "type": "uses",
+            "btwns": 3.333333333333333,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.filters.Purifier",
+            "tar": "org.cyberneko.html.HTMLEventInfo",
+            "type": "uses",
+            "btwns": 1.5,
+            "apsc": 2
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner",
+            "tar": "org.cyberneko.html.HTMLScanner$LocationItem",
+            "type": "uses",
+            "btwns": 7.5,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.HTMLElements",
+            "tar": "org.cyberneko.html.HTMLElements$ElementList",
+            "type": "uses",
+            "btwns": 12,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLTagBalancer",
+            "tar": "org.cyberneko.html.HTMLTagBalancer$ElementEntry",
+            "type": "uses",
+            "btwns": 7,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.SecuritySupport12$3",
+            "tar": "org.cyberneko.html.SecuritySupport12",
+            "type": "uses",
+            "btwns": 9,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLTagBalancer",
+            "tar": "org.cyberneko.html.HTMLComponent",
+            "type": "implements",
+            "btwns": 1,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.SecuritySupport12",
+            "tar": "org.cyberneko.html.SecuritySupport12$1",
+            "type": "uses",
+            "btwns": 16,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLEventInfo$SynthesizedItem",
+            "tar": "org.cyberneko.html.HTMLEventInfo",
+            "type": "implements",
+            "btwns": 1,
+            "apsc": 3
+        },
+        {
+            "src": "org.cyberneko.html.filters.NamespaceBinder",
+            "tar": "org.cyberneko.html.filters.NamespaceBinder$NamespaceSupport",
+            "type": "uses",
+            "btwns": 12,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLTagBalancer",
+            "tar": "org.cyberneko.html.LostText",
+            "type": "uses",
+            "btwns": 14,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.ObjectFactory",
+            "tar": "org.cyberneko.html.ObjectFactory$ConfigurationError",
+            "type": "uses",
+            "btwns": 7,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.xercesbridge.XercesBridge_2_0",
+            "tar": "org.cyberneko.html.xercesbridge.XercesBridge",
+            "type": "extends",
+            "btwns": 1,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLTagBalancer",
+            "tar": "org.cyberneko.html.xercesbridge.XercesBridge",
+            "type": "uses",
+            "btwns": 1,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLTagBalancer",
+            "tar": "org.cyberneko.html.HTMLEventInfo$SynthesizedItem",
+            "type": "uses",
+            "btwns": 3,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.filters.NamespaceBinder",
+            "tar": "org.cyberneko.html.HTMLElements$Element",
+            "type": "uses",
+            "btwns": 3.333333333333333,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.filters.DefaultFilter",
+            "tar": "org.cyberneko.html.xercesbridge.XercesBridge",
+            "type": "uses",
+            "btwns": 3.333333333333333,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.SecuritySupport12$8",
+            "tar": "org.cyberneko.html.SecuritySupport12",
+            "type": "uses",
+            "btwns": 9,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner",
+            "tar": "org.cyberneko.html.HTMLScanner$ContentScanner",
+            "type": "uses",
+            "btwns": 17,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.filters.ElementRemover",
+            "tar": "org.cyberneko.html.filters.DefaultFilter",
+            "type": "extends",
+            "btwns": 3,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.filters.Purifier",
+            "tar": "org.cyberneko.html.filters.NamespaceBinder$NamespaceSupport",
+            "type": "uses",
+            "btwns": 4,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.SecuritySupport12$6",
+            "tar": "org.cyberneko.html.SecuritySupport12",
+            "type": "uses",
+            "btwns": 9,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.filters.NamespaceBinder",
+            "tar": "org.cyberneko.html.filters.DefaultFilter",
+            "type": "extends",
+            "btwns": 7,
+            "apsc": 2
+        },
+        {
+            "src": "org.cyberneko.html.SecuritySupport",
+            "tar": "org.cyberneko.html.SecuritySupport12",
+            "type": "uses",
+            "btwns": 72,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner",
+            "tar": "org.cyberneko.html.HTMLScanner$SpecialScanner",
+            "type": "uses",
+            "btwns": 7,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner",
+            "tar": "org.cyberneko.html.HTMLAugmentations",
+            "type": "uses",
+            "btwns": 6,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.filters.Writer",
+            "tar": "org.cyberneko.html.filters.Identity",
+            "type": "uses",
+            "btwns": 1.5,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.SecuritySupport12",
+            "tar": "org.cyberneko.html.SecuritySupport12$8",
+            "type": "uses",
+            "btwns": 16,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.filters.Writer",
+            "tar": "org.cyberneko.html.HTMLConfiguration",
+            "type": "uses",
+            "btwns": 30.333333333333332,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.HTMLTagBalancer",
+            "tar": "org.cyberneko.html.HTMLTagBalancingListener",
+            "type": "uses",
+            "btwns": 1,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner",
+            "tar": "org.cyberneko.html.HTMLErrorReporter",
+            "type": "uses",
+            "btwns": 1,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.filters.Writer",
+            "tar": "org.cyberneko.html.HTMLElements$Element",
+            "type": "uses",
+            "btwns": 1,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLConfiguration",
+            "tar": "org.cyberneko.html.filters.NamespaceBinder",
+            "type": "uses",
+            "btwns": 28,
+            "apsc": 5
+        },
+        {
+            "src": "org.cyberneko.html.filters.Writer",
+            "tar": "org.cyberneko.html.HTMLElements",
+            "type": "uses",
+            "btwns": 2,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.filters.Purifier",
+            "tar": "org.cyberneko.html.HTMLEventInfo$SynthesizedItem",
+            "type": "uses",
+            "btwns": 2,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.xercesbridge.XercesBridge_2_1",
+            "tar": "org.cyberneko.html.xercesbridge.XercesBridge",
+            "type": "extends",
+            "btwns": 1,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.filters.NamespaceBinder",
+            "tar": "org.cyberneko.html.xercesbridge.XercesBridge",
+            "type": "uses",
+            "btwns": 1,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.xercesbridge.XercesBridge_2_3",
+            "tar": "org.cyberneko.html.xercesbridge.XercesBridge_2_2",
+            "type": "extends",
+            "btwns": 2,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.SecuritySupport12",
+            "tar": "org.cyberneko.html.SecuritySupport12$7",
+            "type": "uses",
+            "btwns": 16,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner$ContentScanner",
+            "tar": "org.cyberneko.html.HTMLScanner$SpecialScanner",
+            "type": "uses",
+            "btwns": 1,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner$ContentScanner",
+            "tar": "org.cyberneko.html.HTMLScanner$CurrentEntity",
+            "type": "uses",
+            "btwns": 1,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.filters.DefaultFilter",
+            "tar": "org.cyberneko.html.HTMLComponent",
+            "type": "implements",
+            "btwns": 5.5,
+            "apsc": 2
+        },
+        {
+            "src": "org.cyberneko.html.SecuritySupport12",
+            "tar": "org.cyberneko.html.SecuritySupport12$5",
+            "type": "uses",
+            "btwns": 16,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.SecuritySupport12",
+            "tar": "org.cyberneko.html.SecuritySupport12$2",
+            "type": "uses",
+            "btwns": 16,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.SecuritySupport12",
+            "tar": "org.cyberneko.html.SecuritySupport12$3",
+            "type": "uses",
+            "btwns": 16,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLConfiguration",
+            "tar": "org.cyberneko.html.HTMLComponent",
+            "type": "uses",
+            "btwns": 5,
+            "apsc": 3
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner$ContentScanner",
+            "tar": "org.cyberneko.html.HTMLScanner",
+            "type": "uses",
+            "btwns": 7.5,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.ObjectFactory",
+            "tar": "org.cyberneko.html.SecuritySupport",
+            "type": "uses",
+            "btwns": 70,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.SecuritySupport12$2",
+            "tar": "org.cyberneko.html.SecuritySupport12",
+            "type": "uses",
+            "btwns": 9,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLTagBalancer",
+            "tar": "org.cyberneko.html.HTMLElements$Element",
+            "type": "uses",
+            "btwns": 3.333333333333333,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner$ContentScanner",
+            "tar": "org.cyberneko.html.HTMLScanner$LocationItem",
+            "type": "uses",
+            "btwns": 1.5,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLTagBalancer$InfoStack",
+            "tar": "org.cyberneko.html.HTMLTagBalancer$Info",
+            "type": "uses",
+            "btwns": 2,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.filters.Writer",
+            "tar": "org.cyberneko.html.HTMLEntities",
+            "type": "uses",
+            "btwns": 3,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner$LocationItem",
+            "tar": "org.cyberneko.html.HTMLEventInfo",
+            "type": "implements",
+            "btwns": 5.5,
+            "apsc": 3
+        },
+        {
+            "src": "org.cyberneko.html.parsers.DOMParser",
+            "tar": "org.cyberneko.html.HTMLConfiguration",
+            "type": "uses",
+            "btwns": 43,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.filters.Purifier",
+            "tar": "org.cyberneko.html.HTMLAugmentations",
+            "type": "uses",
+            "btwns": 3.5,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.HTMLConfiguration",
+            "tar": "org.cyberneko.html.HTMLErrorReporter",
+            "type": "uses",
+            "btwns": 5,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.HTMLAugmentations",
+            "tar": "org.cyberneko.html.HTMLScanner$LocationItem",
+            "type": "uses",
+            "btwns": 10.5,
+            "apsc": 2
+        },
+        {
+            "src": "org.cyberneko.html.HTMLTagBalancer$ElementEntry",
+            "tar": "org.cyberneko.html.HTMLAugmentations",
+            "type": "uses",
+            "btwns": 3,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.SecuritySupport12",
+            "tar": "org.cyberneko.html.SecuritySupport12$6",
+            "type": "uses",
+            "btwns": 16,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.filters.NamespaceBinder",
+            "tar": "org.cyberneko.html.HTMLElements",
+            "type": "uses",
+            "btwns": 6.666666666666666,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.HTMLConfiguration$ErrorReporter",
+            "tar": "org.cyberneko.html.HTMLScanner",
+            "type": "uses",
+            "btwns": 14.5,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner",
+            "tar": "org.cyberneko.html.HTMLComponent",
+            "type": "implements",
+            "btwns": 3.5,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner$SpecialScanner",
+            "tar": "org.cyberneko.html.HTMLScanner$Scanner",
+            "type": "implements",
+            "btwns": 1,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.HTMLEntities$IntProperties",
+            "tar": "org.cyberneko.html.HTMLEntities$IntProperties$Entry",
+            "type": "uses",
+            "btwns": 11,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.SecuritySupport12$4",
+            "tar": "org.cyberneko.html.SecuritySupport12",
+            "type": "uses",
+            "btwns": 9,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLTagBalancer",
+            "tar": "org.cyberneko.html.HTMLEventInfo",
+            "type": "uses",
+            "btwns": 3,
+            "apsc": 2
+        },
+        {
+            "src": "org.cyberneko.html.HTMLConfiguration",
+            "tar": "org.cyberneko.html.HTMLTagBalancer",
+            "type": "uses",
+            "btwns": 49,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.LostText$Entry",
+            "tar": "org.cyberneko.html.HTMLAugmentations",
+            "type": "uses",
+            "btwns": 6,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner",
+            "tar": "org.cyberneko.html.HTMLScanner$Scanner",
+            "type": "uses",
+            "btwns": 7,
+            "apsc": 2
+        },
+        {
+            "src": "org.cyberneko.html.HTMLConfiguration",
+            "tar": "org.cyberneko.html.HTMLConfiguration$ErrorReporter",
+            "type": "uses",
+            "btwns": 5,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.parsers.SAXParser",
+            "tar": "org.cyberneko.html.HTMLConfiguration",
+            "type": "uses",
+            "btwns": 44,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner",
+            "tar": "org.cyberneko.html.HTMLScanner$PlaybackInputStream",
+            "type": "uses",
+            "btwns": 8,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.filters.Identity",
+            "tar": "org.cyberneko.html.HTMLEventInfo",
+            "type": "uses",
+            "btwns": 1.5,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner$ContentScanner",
+            "tar": "org.cyberneko.html.HTMLScanner$Scanner",
+            "type": "implements",
+            "btwns": 1,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.SecuritySupport12$5",
+            "tar": "org.cyberneko.html.SecuritySupport12",
+            "type": "uses",
+            "btwns": 9,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.SecuritySupport12",
+            "tar": "org.cyberneko.html.SecuritySupport",
+            "type": "extends",
+            "btwns": 9,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.filters.Identity",
+            "tar": "org.cyberneko.html.filters.DefaultFilter",
+            "type": "extends",
+            "btwns": 3,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLConfiguration",
+            "tar": "org.cyberneko.html.xercesbridge.XercesBridge",
+            "type": "uses",
+            "btwns": 4.333333333333334,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLConfiguration$ErrorReporter",
+            "tar": "org.cyberneko.html.HTMLErrorReporter",
+            "type": "implements",
+            "btwns": 1,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.HTMLConfiguration$ErrorReporter",
+            "tar": "org.cyberneko.html.HTMLConfiguration",
+            "type": "uses",
+            "btwns": 27.5,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.SecuritySupport12$7",
+            "tar": "org.cyberneko.html.SecuritySupport12",
+            "type": "uses",
+            "btwns": 9,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner$SpecialScanner",
+            "tar": "org.cyberneko.html.HTMLScanner",
+            "type": "uses",
+            "btwns": 15,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner$ContentScanner",
+            "tar": "org.cyberneko.html.HTMLElements",
+            "type": "uses",
+            "btwns": 6.666666666666666,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.parsers.DOMFragmentParser",
+            "tar": "org.cyberneko.html.HTMLConfiguration",
+            "type": "uses",
+            "btwns": 44,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLConfiguration",
+            "tar": "org.cyberneko.html.HTMLTagBalancingListener",
+            "type": "uses",
+            "btwns": 6,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner",
+            "tar": "org.cyberneko.html.HTMLEventInfo",
+            "type": "uses",
+            "btwns": 5.5,
+            "apsc": 2
+        },
+        {
+            "src": "org.cyberneko.html.HTMLTagBalancer",
+            "tar": "org.cyberneko.html.HTMLErrorReporter",
+            "type": "uses",
+            "btwns": 1,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.filters.Writer",
+            "tar": "org.cyberneko.html.filters.Purifier",
+            "type": "uses",
+            "btwns": 6.333333333333333,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.parsers.DOMParser",
+            "tar": "org.cyberneko.html.xercesbridge.XercesBridge",
+            "type": "uses",
+            "btwns": 1,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner$SpecialScanner",
+            "tar": "org.cyberneko.html.HTMLScanner$CurrentEntity",
+            "type": "uses",
+            "btwns": 1,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLConfiguration",
+            "tar": "org.cyberneko.html.HTMLScanner",
+            "type": "uses",
+            "btwns": 52.5,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.HTMLConfiguration",
+            "tar": "org.cyberneko.html.ObjectFactory",
+            "type": "uses",
+            "btwns": 72,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner$ContentScanner",
+            "tar": "org.cyberneko.html.HTMLErrorReporter",
+            "type": "uses",
+            "btwns": 1,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.filters.Writer",
+            "tar": "org.cyberneko.html.filters.DefaultFilter",
+            "type": "extends",
+            "btwns": 1.8333333333333333,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLTagBalancer",
+            "tar": "org.cyberneko.html.HTMLTagBalancer$Info",
+            "type": "uses",
+            "btwns": 7,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner$ContentScanner",
+            "tar": "org.cyberneko.html.HTMLScanner$PlaybackInputStream",
+            "type": "uses",
+            "btwns": 1,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLTagBalancer",
+            "tar": "org.cyberneko.html.HTMLAugmentations",
+            "type": "uses",
+            "btwns": 4,
+            "apsc": 1
+        },
+        {
+            "src": "org.cyberneko.html.xercesbridge.XercesBridge_2_2",
+            "tar": "org.cyberneko.html.xercesbridge.XercesBridge",
+            "type": "extends",
+            "btwns": 2,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLTagBalancer$Info",
+            "tar": "org.cyberneko.html.HTMLElements$Element",
+            "type": "uses",
+            "btwns": 2,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.SecuritySupport12",
+            "tar": "org.cyberneko.html.SecuritySupport12$4",
+            "type": "uses",
+            "btwns": 16,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner$SpecialScanner",
+            "tar": "org.cyberneko.html.HTMLErrorReporter",
+            "type": "uses",
+            "btwns": 1,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLTagBalancer",
+            "tar": "org.cyberneko.html.HTMLTagBalancer$InfoStack",
+            "type": "uses",
+            "btwns": 7,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.filters.Purifier",
+            "tar": "org.cyberneko.html.filters.DefaultFilter",
+            "type": "extends",
+            "btwns": 2,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner$ContentScanner",
+            "tar": "org.cyberneko.html.xercesbridge.XercesBridge",
+            "type": "uses",
+            "btwns": 3,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.LostText",
+            "tar": "org.cyberneko.html.LostText$Entry",
+            "type": "uses",
+            "btwns": 11,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.SecuritySupport12$1",
+            "tar": "org.cyberneko.html.SecuritySupport12",
+            "type": "uses",
+            "btwns": 9,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLElements",
+            "tar": "org.cyberneko.html.HTMLElements$Element",
+            "type": "uses",
+            "btwns": 1,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLTagBalancer",
+            "tar": "org.cyberneko.html.HTMLElements",
+            "type": "uses",
+            "btwns": 6.666666666666666,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLEntities",
+            "tar": "org.cyberneko.html.HTMLEntities$IntProperties",
+            "type": "uses",
+            "btwns": 20,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.filters.Purifier",
+            "tar": "org.cyberneko.html.xercesbridge.XercesBridge",
+            "type": "uses",
+            "btwns": 1.3333333333333333,
+            "apsc": 0
+        },
+        {
+            "src": "org.cyberneko.html.HTMLScanner",
+            "tar": "org.cyberneko.html.HTMLScanner$CurrentEntity",
+            "type": "uses",
+            "btwns": 7,
+            "apsc": 0
+        }
+    ]
+}

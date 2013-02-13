@@ -1,0 +1,140 @@
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+#loadingMessage {
+     /* Positiong the loading message in the middle of the screen */
+  position: fixed;
+    width: 400px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px; /* margin is -0.5 * dimension */
+    margin-top: -25px; 
+    text-align: center;
+    font-size:larger;
+}
+ 
+b#breadcrumbseperator {
+     font-weight: bolder;
+}
+
+#hoverBreadCrumbs {
+     z-index: 1000;
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     background-color: lightgray;
+     font-size: large;     
+}
+
+#chordDiv {
+     top: 0px; 
+     left: 0px; 
+/*     width: 100px; */
+/*     height: 100px; */
+     position: absolute; 
+     z-index: -1;      
+     }
+
+
+#breadCrumbs {
+     z-index: 50; 
+   /* position: absolute;
+     left: 0;
+     top: 0;*/
+     font-size: small;
+     display: inline-block;
+/*     position: fixed*/
+     
+     
+     
+}
+.bcSpan{
+    position: absolute;     
+    cursor: hand; 
+    cursor: pointer;
+    display: inline-block;
+}
+​
+  
+
+
+/*Diagram stuff  */
+.rect {
+  fill:red;
+  stroke:black;
+  stroke-width:5;
+  opacity:0.5  
+}
+
+
+path.arc {
+  cursor: move;
+  fill: #fff;
+}
+
+.radio {
+     float: right;
+}
+
+.node {
+  font-size: 10px;  
+  cursor: hand; 
+  cursor: pointer;    
+}
+
+.node.jar {
+  font-size: 20px;    
+}
+.node.package {
+  font-size: 16px;  
+}
+
+.node.class {
+  font-size: 13px;
+}
+
+.node:hover {
+  fill: #1f77b4;
+/*  font-size: 20px;  */
+}
+
+.edge {
+  fill: none;
+  stroke: #1f77b4;
+  stroke-opacity: 0.4;
+  stroke-width: 2px;
+  cursor: hand; 
+  cursor: pointer;
+}
+
+.edge.selected {
+     stroke-width: 4px;
+     stroke:purple;
+}
+
+.edge.source, .edge.target {
+  stroke-opacity: 1;
+  stroke-width: 3px;
+}
+
+.node.selected {
+     fill:purple !important;
+}
+.node.target {
+  fill: #d62728 !important;
+}
+
+.edge.source {
+  stroke: #d62728;
+}
+
+.node.source {
+  fill: #2ca02c;
+}
+
+.edge.target {
+  stroke: #2ca02c;
+}
+
